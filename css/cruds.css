@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+    color: white;
+}
+
+
+.header{
+        margin: 10px auto;
+        font-size: 17px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px;
+}
+.cruds{
+    font-weight: 900;
+}   
+input{
+    margin: 10px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(39, 83, 85) ;
+    color: white;
+    outline: none;
+}  
+
+input:focus{
+background-color:rgb(21, 41, 43) ; 
+transform: scale(1.1 ); 
+}
+.prices input{
+    width: 15%;
+    }
+#total{
+    background-color: #8f6837;
+    padding: 6px 6px;
+    border-radius: 4px;
+}
+#total::before{
+    content: "Total:";
+}
+
+
+button{
+    width: 100%;
+    height: 30px;
+    /* margin: 3px auto; */
+    margin: 3px 0px 3px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #8f6837;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(151, 123, 87);
+    letter-spacing: 1px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    width: 43%; 
+}
+#DeleteAll{
+    margin: 10px auto;
+}
+table{
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+}
+ table th {
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px 0;
+}
